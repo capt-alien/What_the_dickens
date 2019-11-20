@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>What the Dickens!?</title>
+
+        <!-- Need this line so app can use css file -->
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+        <!-- <link rel="stylesheet" href="./static/css/styles.css"> -->
+
+        <div id="header">
+            <h1>
+                What the Dickens!?
+            </h1>
+
+        </div>
+    </head>
+
+    <body>
+        <!-- Need this line so app can use css file -->
+        <div id="quote">
+            <h2>{{sentence}}</h2>
+
+        </div>
+
+    </body>
+    <footer>
+        <a href="/about">About</a>
+        </footer>
+</html>
