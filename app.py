@@ -3,9 +3,9 @@ import random
 import cleanup
 import markov
 
-# connect to the webwith unique name
 app = Flask(__name__)
 
+# THIS FILE IS THE MAIN APPP THAT RUNS THE PROEJCT
 
 @app.route('/')
 def main():

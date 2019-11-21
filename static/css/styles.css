@@ -4,42 +4,40 @@ body
     background-repeat: no-repeat: ;
 }
 
-#quote
-{
-    display: flex;
-    width: 35%;
-    height: 40%;
-    margin: left;
-    animation-name: fadeIn;
-    animation-duration: 4s;
-    background-color: white;
-    text-align: center;
-    font-family: cursive;
-}
-
 header.h2
 {
-    margin: auto; /* Important */
+    margin: auto;
+    padding: 5px;
     text-align: left;
-    /* background-color: white; */
     margin-top: 30%;
-    font-family: cursive;
 }
 
 header.h1
 {
     text-align: left;
     color: black;
-    margin-top: 3%;
+    margin-top: 5%;
+    font-style: oblique;
 }
 
+#textbox{
+    background-color: white;
+    font-style: oblique;
+    padding: 5px;
+    font-family: cursive;
+    height: auto;
+    width: 500px;
+    border-style: solid;
+    border-width: medium;
+    border-radius: 25px;
+    opacity: 0.7;
+}
 
 
 @keyframes fadeIn {
     0% {
         opacity: 0;
     }
-
     100% {
         opacity: 1;
     }
